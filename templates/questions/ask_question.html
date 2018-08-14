@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stack Overflow - Where Developers Learn, Share, &amp; Build Careers</title>
+  <link rel="stylesheet" href="../../static/css/index.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="left">
+      <img src="../../static/files/logo.PNG" alt="StackOverflow-Lite">
+      <input type="text" placeholder="Search...">
+      <div class="sign-in-up">
+          <button class="login-button" onclick="showLoginPage()">Log In</button>
+          <button class="register-button" onclick="showSignUpPage()">Sign Up</button>
+      </div>
+      
+    </div>
+
+    <div class="right">
+      
+    </div>
+  </nav>
+
+  <!-- Section Content Body -->
+  <div class="section">
+    <div class="side-menu">
+      <ul>
+        <li><a href="../index.html" class="active-home">Home</a></li>
+        <li><a href="../users/profile.html">Profile</a></li>
+      </ul>
+    </div>
+
+    <div class="question">
+       <div id="myLoginDIV" style="display: none;">
+          <form class="" action="" method="post">
+            <label for="">Email</label>
+            </br>
+            <input class="left-input" type="text" name="username/email" value="" size="35" required>
+            </br>
+            </br>
+    
+            <label for="">Password</label>
+            </br>
+            <input class="left-input" type="password" name="password" value="" required>
+            </br>
+            </br>
+            <input type="checkbox" id="remember-me" class="remember-me" value="Remember Me">Remember Me<br>
+            </br>
+            <input class="submit-button" type="submit" name="" value="Submit">
+            </br>
+            </br>
+            Forgot Password? <a class="recover-password" href="#">Recover It Here</a>
+    
+          </br>
+          </br>
+          Need an account? <a class="recover-password" href="../index.html">Sign Up Here</a>
+            </form>
+      </div>
+
+
+
+
+
+      <div class="question-fields">
+            <center>
+             
+      
+                
+            <div class="answer">
+                    <h3>Title of the Question</h3>
+                    <textarea rows="2" cols="50" class="question-area" placeholder="Please, provide a brief and straight-forward title to your question"></textarea>
+                    <h4>Description of the Question</h4>
+                    <div class="editor-ask-question-description">
+                            <textarea name="editor1" id="editor1" cols="30" rows="5"></textarea>
+                    </div>
+                    
+             </div>
+           
+            </br>
+              <input class="sumitQuestion" type="submit" name="" value="Submit Question">
+         <hr></hr>
+            </center>
+      
+        </div>
+      
+
+
+    </br></br>
+
+
+        <div class="search-features">
+            <center>
+                    <h3>Search Questions</h3>
+                <select class="orderby-select" name="">
+    
+                    <option value="">Most Recent Questions</option>
+                    <option value="">Most Answered Questions</option>
+                    <option value="">Most Voted Questions</option>
+                    <option value="">Have Accepted Answers</option>
+               
+                </select>
+               
+                <select class="users-select" name="">
+               
+                    <option value="">Asked By Me</option>
+                    <option value="">Asked by Others</option>
+               
+                </select>
+               
+                    <input class="my-search-input" type="text" name="" value="" placeholder="Search Questions...">
+            </center>
+          </div>
+
+
+
+      <div class="top-question">
+        <!-- <div class="heading">
+            <h1>Top Questions</h1>
+        </div> -->
+        
+        <!-- <div class="clearfix">
+
+        
+        </div> -->
+        <!-- <div class="interesting">
+            <ul>
+              <li><a href="#">Interesting</a></li>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Hot</a></li>
+              <li><a href="#">Week</a></li>
+              <li><a href="#">Month</a></li>
+            </ul>
+          </div> -->
+      </div>
+
+      <!-- Content -->
+      
+      <!-- Post One -->
+    <div class="post-body">
+      <div class="post">
+        <div class="post-rating">
+          <ul>
+            <li><a href="#"><span style="padding-left: 13px;">0</span><br> votes</a></li>
+            <li class="active"><a href="#"><span style="padding-left: 18px;">1</span><br> answer</a></li>
+            <li><a href="#"><span style="padding: 13px;">21</span><br> views</a></li>
+          </ul>
+        </div>
+        <div class="post-title">
+          <h3><a href="details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime ad soluta adipisci quae. Mollitia officia repellat in?</a></h3>
+        </div>
+      </div>
+      <!-- Post Two -->
+      <div class="post">
+          <div class="post-rating">
+            <ul>
+              <li><a href="#"><span style="padding-left: 13px;">8</span><br> votes</a></li>
+              <li class="active"><a href="#"><span style="padding-left: 18px;">4</span><br> answer</a></li>
+              <li><a href="#"><span style="padding: 13px;">23</span><br> views</a></li>
+            </ul>
+          </div>
+          <div class="post-title">
+            <h3><a href="details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime ad soluta adipisci quae. Mollitia officia repellat in?</a></h3>
+          </div>
+        </div>
+      <!-- Post Three -->
+      <div class="post">
+          <div class="post-rating">
+            <ul>
+              <li><a href="#"><span style="padding-left: 13px;">3</span><br> votes</a></li>
+              <li class="active"><a href="#"><span style="padding-left: 18px;">2</span><br> answer</a></li>
+              <li><a href="#"><span style="padding: 13px;">26</span><br> views</a></li>
+            </ul>
+          </div>
+          <div class="post-title">
+            <h3><a href="details.html">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam maxime ad soluta adipisci quae. Mollitia officia repellat in?</a></h3>
+          </div>
+        </div>
+      <!--End of Post -->
+    </div>
+  </div>
+    <div class="side-update">
+      <div class="side-update-content">
+          <h5>BLOG</h5>
+          <hr>
+          <a href="#">Get to Know Our New Code of Conduct</a>
+      </div>
+      <div>
+        <br>
+          <h5>FEATURED ON META</h5>
+          <hr>
+          <a href="#">Updated comment flagging - Supporting the new Code of Conduct</a><br>
+          <a href="#">Custom question lists is available for testing</a><br>
+          <a href="#">Should we burninate the [arrow] tag?</a>
+      </div>
+      <div>
+        <br>
+          <h5>HOT META POSTS</h5>
+          <hr>
+          <a href="#">Do companies receive notifications if an user mentions them in his/her…</a><br>
+          <a href="#">How to answer a question when the right answer may not be a good idea</a>
+      </div>
+    </div> 
+  </div>
+
+  <div class="clearfix"></div>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2018 - Stack Overflow-Lite</p>
+  </footer>
+
+
+  <!-- WYSIWYG Editor -->
+  <script src="https://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
+  <script>
+    CKEDITOR.replace( 'editor1' );
+  </script>
+
+  <script src="../../static/javascripts/main.js"></script>
+</body>
+</html>
